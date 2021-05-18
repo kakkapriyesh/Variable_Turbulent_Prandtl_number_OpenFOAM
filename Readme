@@ -1,8 +1,10 @@
 
-These files were used to calculate variable turbulent Prandtl number at each time step. The model was applied to smagorinsky referring following paper:
+These files were used to calculate variable turbulent Prandtl number at each time step. The solver used is buoyantBoussinesqPimpleFoam. 
+The model was applied to smagorinsky referring following paper:
 Lilly, D. K. (1992). A proposed modification of the Germano subgrid‐scale closure method. Physics of Fluids A: Fluid Dynamics, 4(3), 633-635.
 
-I have done this a few years ago so I do not remeber everything within it. I will try to fix some warnings but not sure when. If someone works on it and improves it, Please let me know.
+I have done this work a few years ago so I do not remeber everything within it. I will try to fix some warnings but not sure when. 
+If someone works on it and improves it, Please let me know.
 Please cite if this code is helpful to you:
 
 Kakka, Priyesh, and Kameswararao Anupindi. "Assessment of subgrid-scale models for large-eddy simulation of a planar turbulent wall-jet with heat transfer."
