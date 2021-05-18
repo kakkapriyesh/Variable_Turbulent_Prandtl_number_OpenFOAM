@@ -1,6 +1,11 @@
 
-These files were used to calculate variable turbulent Prandtl number at each time step. The solver used is buoyantBoussinesqPimpleFoam. 
-The model was applied to smagorinsky referring following paper:
+I had modified the OpenFOAM solver to see the effects of turbulent Prandtl numbers on the heat transfer near the wall. For incompressible solver, 
+OpenFOAM keeps turbulent Prandtl number as constant, hence energy equation solved is not truly dynamic.
+I calculated turbulent Prandtl number using test filters similar to dynamic models referring to Lilly's paper of 1992. 
+Here, the turbulent Prandtl number is calculated at every timestep, and it influences the energy equation.  
+The solver used is buoyantBoussinesqPimpleFoam. 
+
+The model was applied to dynamic smagorinsky referring following paper:
 Lilly, D. K. (1992). A proposed modification of the Germano subgrid‐scale closure method. Physics of Fluids A: Fluid Dynamics, 4(3), 633-635.
 
 I have done this work a few years ago so I do not remeber everything within it. I will try to fix some warnings but not sure when. 
