@@ -1,0 +1,19 @@
+#!/bin/sh                                                                      \
+                                                                                
+
+
+\echo "Allwclean";
+
+cd turbulenceModels/
+wclean
+echo "turbulence model file cleaned";
+cd ..
+cd incompressible/
+wclean
+echo " incompressible cleaned";
+cd ..
+wmakeLnInclude -u turbulenceModels
+wmakeLnInclude -u incompressible
+
+
+

@@ -1,0 +1,23 @@
+$(OBJECTS_DIR)/primitives/Scalar/scalar/scalar.C.dep: \
+primitives/Scalar/scalar/scalar.C \
+primitives/Scalar/scalar/scalar.H \
+lnInclude/floatScalar.H \
+lnInclude/doubleFloat.H \
+lnInclude/label.H \
+lnInclude/int.H \
+lnInclude/int32.H \
+lnInclude/word.H \
+lnInclude/string.H \
+lnInclude/char.H \
+lnInclude/Hasher.H \
+lnInclude/stringI.H \
+lnInclude/wordI.H \
+lnInclude/pTraits.H \
+lnInclude/direction.H \
+lnInclude/int64.H \
+lnInclude/labelSpecific.H \
+lnInclude/products.H \
+lnInclude/Scalar.H \
+lnInclude/doubleScalar.H \
+
+

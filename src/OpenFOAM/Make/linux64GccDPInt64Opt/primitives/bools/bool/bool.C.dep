@@ -1,0 +1,7 @@
+$(OBJECTS_DIR)/primitives/bools/bool/bool.C.dep: \
+primitives/bools/bool/bool.C \
+primitives/bools/bool/bool.H \
+lnInclude/pTraits.H \
+lnInclude/direction.H \
+
+

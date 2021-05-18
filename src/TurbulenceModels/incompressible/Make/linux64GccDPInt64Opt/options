@@ -1,0 +1,13 @@
+# 1 "Make/options"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "Make/options"
+EXE_INC = -I$(WM_PROJECT_USER_DIR)/src/TurbulenceModels/turbulenceModels -I$(LIB_SRC)/transportModels -I$(LIB_SRC)/finiteVolume/lnInclude -I$(LIB_SRC)/meshTools/lnInclude -I$(WM_PROJECT_USER_DIR)/src/TurbulenceModels/turbulenceModels/lnInclude -I$(WM_PROJECT_USER_DIR)/src/TurbulenceModels/incompressible/lnInclude
+
+
+
+
+
+
+
+LIB_LIBS = -lincompressibleTransportModels -lmyturbulenceModels -L$(WM_PROJECT_USER_DIR)/platforms/linux64GccDPInt64Opt/lib -lfiniteVolume -lmeshTools
