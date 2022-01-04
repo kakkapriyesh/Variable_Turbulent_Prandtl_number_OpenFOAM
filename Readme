@@ -3,6 +3,7 @@ I had modified the OpenFOAM solver to see the effects of turbulent Prandtl numbe
 OpenFOAM keeps turbulent Prandtl number as constant, hence energy equation solved is not truly dynamic.
 I calculated turbulent Prandtl number using test filters similar to dynamic models referring to Lilly's paper of 1992. 
 Here, the turbulent Prandtl number is calculated at every timestep, and it influences the energy equation.  
+
 The solver used is `buoyantBoussinesqPimpleFoam`. 
 
 ```
@@ -11,7 +12,7 @@ Lilly, D. K. (1992). A proposed modification of the Germano subgrid‐scale clos
 
 ```
 
-I have done this work a few years ago so I do not remeber everything within it. I will try to fix some warnings but not sure when. 
+I have done this work a few years ago so I do not remember everything within it. I will try to fix some warnings but not sure when. 
 If someone works on it and improves it, Please let me know.
 
 Please cite if this code is helpful to you:
